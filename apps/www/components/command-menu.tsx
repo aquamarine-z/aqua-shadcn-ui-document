@@ -50,6 +50,7 @@ export function CommandMenu({ ...props }: DialogProps) {
     command()
   }, [])
 
+  // @ts-ignore
   return (
     <>
       <Button
@@ -72,6 +73,7 @@ export function CommandMenu({ ...props }: DialogProps) {
           <CommandEmpty>No results found.</CommandEmpty>
           <CommandGroup heading="Links">
             {docsConfig.mainNav
+              //@ts-ignore
               .filter((navitem) => !navitem.external)
               .map((navItem) => (
                 <CommandItem

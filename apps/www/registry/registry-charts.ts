@@ -1,5 +1,7 @@
 import { type Registry } from "shadcn/registry"
 
+export const charts: Registry["items"] = []
+/*
 export const charts: Registry["items"] = [
   // Area Charts
   {
@@ -853,3 +855,4 @@ export const charts: Registry["items"] = [
     categories: ["charts", "charts-tooltip"],
   },
 ]
+*/

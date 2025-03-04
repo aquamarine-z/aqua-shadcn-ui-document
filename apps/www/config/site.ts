@@ -1,9 +1,8 @@
 export const siteConfig = {
-  name: "shadcn/ui",
-  url: "https://ui.shadcn.com",
+  name: "aqua-shadcn/ui",
+  url: "https://aquamarine-z.github.io/aquamarine-shadcn-ui",
   ogImage: "https://ui.shadcn.com/og.jpg",
-  description:
-    "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+  description: "A UI Lib adapted from Shadcn UI by Aquamarine",
   links: {
     twitter: "https://twitter.com/shadcn",
     github: "https://github.com/shadcn-ui/ui",

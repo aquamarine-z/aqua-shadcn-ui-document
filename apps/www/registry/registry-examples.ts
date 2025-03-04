@@ -2,6 +2,50 @@ import { type Registry } from "shadcn/registry"
 
 export const examples: Registry["items"] = [
   {
+    name: "time-picker-container-demo",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/time-picker-container-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "time-picker-with-dialog-demo",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/time-picker-with-dialog-demo.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "time-picker-with-value",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/time-picker-with-value.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "time-picker-with-popover",
+    type: "registry:example",
+    files: [
+      {
+        path: "examples/time-picker-with-popover.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+]
+
+/*
+export const examples: Registry["items"] = [
+  {
     name: "accordion-demo",
     type: "registry:example",
     registryDependencies: ["accordion"],
@@ -1612,44 +1656,6 @@ export const examples: Registry["items"] = [
       },
     ],
   },
-  {
-    name: "time-picker-container-demo",
-    type: "registry:example",
-    files: [
-      {
-        path: "examples/time-picker-container-demo.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "time-picker-with-dialog-demo",
-    type: "registry:example",
-    files: [
-      {
-        path: "examples/time-picker-with-dialog-demo.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "time-picker-with-value",
-    type: "registry:example",
-    files: [
-      {
-        path: "examples/time-picker-with-value.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "time-picker-with-popover",
-    type: "registry:example",
-    files: [
-      {
-        path: "examples/time-picker-with-popover.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
+
 ]
+*/

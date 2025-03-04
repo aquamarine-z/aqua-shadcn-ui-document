@@ -13,9 +13,8 @@ import {
 } from "@/components/page-header"
 import { Button } from "@/registry/new-york/ui/button"
 
-const title = "Build your component library"
-const description =
-  "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code."
+const title = "Aqua Shadcn UI"
+const description = "A UI Lab adapted from Shadcn UI by Aquamarine"
 
 export const metadata: Metadata = {
   title,
@@ -51,9 +50,6 @@ export default function IndexPage() {
         <PageActions>
           <Button asChild size="sm">
             <Link href="/docs/installation">Get Started</Link>
-          </Button>
-          <Button asChild size="sm" variant="ghost">
-            <Link href="/blocks">Browse Blocks</Link>
           </Button>
         </PageActions>
       </PageHeader>

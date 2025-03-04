@@ -1,5 +1,7 @@
 import { type Registry } from "shadcn/registry"
 
+//export const blocks: Registry["items"] = []
+
 export const blocks: Registry["items"] = [
   {
     name: "sidebar-01",
