@@ -45,6 +45,11 @@ export const docsConfig = {
           href: "/docs/components/time-picker",
           items: [],
         },
+        {
+          title:"Aqua Dialog Content",
+          href: "/docs/components/aqua-dialog-content",
+          items:[],
+        }
       ],
     },
     {
